@@ -1,0 +1,12 @@
+- id: mix-format-check
+  name: mix format
+  description: Formats Elixir files with mix format.
+  language: system
+  entry: mix format --check-formatted
+  files: \.exs?$
+- id: mix-credo
+  name: mix credo
+  description: Analyses Elixir files with mix credo
+  language: system
+  entry: mix credo --strict
+  files: \.exs?$
