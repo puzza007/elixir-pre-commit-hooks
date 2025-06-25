@@ -12,7 +12,7 @@ The repository has a minimal structure focused on providing pre-commit hook defi
 
 - `.pre-commit-hooks.yaml` - Defines available hooks for use by other projects
 - Currently provides two hooks:
-  - `mix-format-check`: Validates Elixir code formatting
+  - `mix-format`: Formats Elixir files with mix format
   - `mix-credo`: Runs Credo static analysis in strict mode
 
 ## Development Notes
