@@ -1,8 +1,8 @@
-- id: mix-format-check
+- id: mix-format
   name: mix format
   description: Formats Elixir files with mix format.
   language: system
-  entry: mix format --check-formatted
+  entry: mix format
   files: \.exs?$
 - id: mix-credo
   name: mix credo
